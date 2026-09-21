@@ -45,7 +45,10 @@ services:
 
   # Okta OnPrem SCIM Server
   okta-scim:
-    build: ./docker/okta-scim
+    build:
+      context: ./docker/okta-scim
+      args:
+        CUSTOMER_ID: ${CUSTOMER_ID}
     hostname: okta-scim
     volumes:
       - ./data/okta-scim/logs:/var/log/OktaOnPremScimServer/

@@ -1,4 +1,7 @@
-# 🗄️ Okta Generic Database Connector (JDBC) Lab Environment with Docker 🐳
+# 🗄️ Okta Generic Database Connector (JDBC) Legacy Lab Environment with Docker 🐳
+
+> [!WARNING]
+> **Legacy lab:** This repository preserves the previous setup with a separate OPP Agent and On-Prem SCIM Server. For the current On-Prem SCIM Agent setup, use [okta-lab-onprem-jdbc](https://github.com/fabiograsso/okta-lab-onprem-jdbc) and the [updated blog guide](https://iam.fabiograsso.net/howto/okta-generic-jdbc-connector/).
 
 A Docker-based laboratory environment for testing Okta's On-Premises Provisioning (OPP) Agent with database connectivity. This setup enables you to quickly deploy and test user provisioning workflows between Okta and on-premises databases (MySQL, MariaDB, PostgreSQL, etc.) using the SCIM protocol.
 
@@ -7,7 +10,7 @@ A Docker-based laboratory environment for testing Okta's On-Premises Provisionin
 
 > 🚀 **Quick Start**: See [QUICKSTART.md](QUICKSTART.md) for very fast setup instructions.
 >
-> 🔗 Blog article: [Okta On-premises Connector for Generic Databases: A Complete Guide](https://iam.fabiograsso.net/posts/howto/okta-generic-jdbc-connector/)
+> 🔗 Blog article: [Okta On-premises Connector for Generic Databases: A Complete Guide](https://iam.fabiograsso.net/howto/okta-generic-jdbc-connector-legacy/)
 >
 > ⚠️ **Warning**: 🐳 **Docker** is not officially supported by Okta to run the OPP Agent and SCIM Server in production. Always consult official Okta documentation and support for production deployments. This environment is for testing and demonstration purposes only.
 >

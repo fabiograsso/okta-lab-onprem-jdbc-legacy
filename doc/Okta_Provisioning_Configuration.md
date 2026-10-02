@@ -960,11 +960,11 @@ You will find the SCIM server logs mounted in the local folder `./data/okta-scim
 
 Once you have the Generic Database Connector set up, you can explore additional use cases such as:
 
-- **Entitlements Policies**: Define policies in Okta to govern how entitlements are assigned based on user attributes (e.g., department, location). Documentation: [Okta Help - Create an Entitlement Policy](https://help.okta.com/oie/en-us/content/topics/governance/policies/entitlement-policy-create.htm).
+- **Entitlements Policies**: Define policies in Okta to govern how entitlements are assigned based on user attributes (e.g., department, location). Documentation: [Okta Help - Create an Entitlement Policy](https://help.okta.com/oie/en-us/content/topics/identity-governance/em/create-entitlement-policy.htm).
 
-- **Access Requests**: Use Okta's Access Request feature to allow users to request entitlements, with approval workflows and automated provisioning. Documentation: [Okta Help - Access Requests](https://help.okta.com/oie/en-us/content/topics/governance/access-requests.htm).
+- **Access Requests**: Use Okta's Access Request feature to allow users to request entitlements, with approval workflows and automated provisioning. Documentation: [Okta Help - Access Requests](https://help.okta.com/en-us/content/topics/identity-governance/access-requests/ar-get-started.htm).
 
-- **Access Certification Campaigns**: Implement one time or periodic access reviews for entitlements to ensure compliance and recertification. Documentation: [Okta Help - Access Certification](https://help.okta.com/oie/en-us/content/topics/governance/access-certification.htm).
+- **Access Certification Campaigns**: Implement one time or periodic access reviews for entitlements to ensure compliance and recertification. Documentation: [Okta Help - Access Certification](https://help.okta.com/en-us/content/topics/identity-governance/access-certification/ac-get-started.htm).
 
 ---
 
@@ -1165,8 +1165,8 @@ Enable debug logging in SCIM Server:
 - [Database Schema](../sql/init.sql)
 - [Generic Database Connector Okta Documentation](https://help.okta.com/oie/en-us/content/topics/provisioning/opc/connectors/on-prem-connector-generic-db.htm)
 - [Okta SCIM Server Technical Documentation](../doc/Okta_SCIM_Server.md) - Advanced technical reference for SCIM Server internals (*reverse-engineered, educational purposes only*)
-- [Okta Identity Governance Documentation](https://help.okta.com/oie/en-us/content/topics/governance/)
-- [Okta Lifecycle Management Documentation](https://help.okta.com/oie/en-us/content/topics/provisioning)
+- [Okta Identity Governance Documentation](https://help.okta.com/en-us/content/topics/identity-governance/iga.htm)
+- [Okta Lifecycle Management Documentation](https://help.okta.com/oie/en-us/content/topics/apps/provisioning_deprovisioning_overview.htm)
 
 ---
 

@@ -5,7 +5,7 @@ LABEL org.opencontainers.image.authors="Fabio Gasso <iam@fabiograsso.net>"
 LABEL org.opencontainers.image.title="Okta On-Prem Provisioning Agent"
 LABEL org.opencontainers.image.version="1.0.0"
 LABEL org.opencontainers.image.licenses="Apache-2.0"
-LABEL org.opencontainers.image.source="https://github.com/fabiograsso/okta-lab-onprem-jdbc"
+LABEL org.opencontainers.image.source="https://github.com/fabiograsso/okta-lab-onprem-jdbc-legacy"
 LABEL org.opencontainers.image.description="Docker image for Okta On-Prem Provisioning Agent (OPP), designed for secure integration with Okta Identity Cloud."
 
 ARG OKTA_EULA_ACCEPT=true

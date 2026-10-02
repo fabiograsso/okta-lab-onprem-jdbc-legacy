@@ -4,7 +4,7 @@
 
 Docker-based lab environment for **Okta On-Premises Provisioning (OPP) Agent** with JDBC connectivity. Provides containerized setup for testing and developing Okta provisioning integrations with on-premises databases.
 
-**Project:** okta-lab-onprem-jdbc | **Author:** Fabio Grasso <iam@fabiograsso.net>
+**Project:** okta-lab-onprem-jdbc-legacy | **Author:** Fabio Grasso <iam@fabiograsso.net>
 **Quick Start:** [QUICKSTART.md](QUICKSTART.md)
 
 ## Architecture
